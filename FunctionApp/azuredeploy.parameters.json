@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": ""
+    },
+    "name": {
+      "value": "TP2FunctionApp"
+    },
+    "resourceGroup": {
+      "value": "TP2"
+    },
+    "location": {
+      "value": "Canada Central"
+    },
+    "use32BitWorkerProcess": {
+      "value": false
+    },
+    "ftpsState": {
+      "value": "FtpsOnly"
+    },
+    "netFrameworkVersion": {
+      "value": "v8.0"
+    },
+    "sku": {
+      "value": "Dynamic"
+    },
+    "skuCode": {
+      "value": "Y1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+    "hostingPlanName": {
+      "value": "ASP-TP2-aaf9"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "WorkSpaceName": {
+      "value": "DefaultWorkSpace"
+    }
+  }
+}
