@@ -6,7 +6,7 @@ namespace ServiceBusApp
 {
     class Program
     {
-        private const string connectionString = "Endpoint=sb://azuresb-demo.servicebus.windows.net/;SharedAccessKeyName=AccessPolicy;SharedAccessKey=W8+tkazvT4L3D8Z9qRP7D1faJyQavR+ab+ASbJFalKU=;EntityPath=messagequeue";
+        private const string connectionString = "Endpoint=sb://azuresb-demo.servicebus.windows.net/;SharedAccessKeyName=AccessPolicy;SharedAccessKey=MYKEY;EntityPath=messagequeue";
         private const string queueName = "messagequeue";
 
         static async Task Main(string[] args)
