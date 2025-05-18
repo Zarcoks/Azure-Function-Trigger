@@ -5,8 +5,8 @@ using Azure.Messaging.ServiceBus;
 namespace ServiceBusApp
 {
     class Program
-    {
-        private const string connectionString = "Endpoint=sb://azuresb-demo.servicebus.windows.net/;SharedAccessKeyName=AccessPolicy;SharedAccessKey=MYKEY;EntityPath=messagequeue";
+    {   // Ajouter une SharedAccessKey pour que ça marche;
+        private const string connectionString = "Endpoint=sb://azuresb-demo.servicebus.windows.net/;SharedAccessKeyName=AccessPolicy;EntityPath=messagequeue";
         private const string queueName = "messagequeue";
 
         static async Task Main(string[] args)
